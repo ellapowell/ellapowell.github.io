@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+
+.body {
+  background-color: #f2f2f2;
+  margin: 0;
+}
+
+.header {
+  height: 90px;
+  color: white;
+}
+
+.nav {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo img {
+  max-width: 300px;
+  margin-top: 5px;
+}
+
+.links {
+  font-family: 'Roboto', sans-serif;
+  float: right;
+  margin-top: 33px;
+  font-size: 0.90rem;
+  color: #4b4e61
+}
+
+.links a {
+  color: grey;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.banner {
+  padding:20px 0;
+  text-align: center;
+}
+
+.banner img {
+  max-width: 960px;
+  width: 100%;
+}
+
+.home {
+  font-family: 'Roboto',sans-serif;
+  color: #4b4e61;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+  margin-top: -19px;
+}
+
+.home a {
+  text-decoration: none;
+}
+
+.identifier h2 {
+  font-family: 'Roboto',sans-serif;
+  color: #4b4e61;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+}
+
+.foliowork {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+}
+
+.row {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.foliowork img {
+  float: left;
+  height: 200px;
+  width: 310px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about {
+  font-family: 'Roboto', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  font-size: 0.90rem;
+  color: #4b4e61;
+  max-width: 960px;
+}
+
+.box {
+  padding: 1% 1%;
+  border: 3px solid #4b4e61;
+  letter-spacing: 0.2em;
+  text-decoration: none;
+  color: #4b4e61;
+  text-align: center;
+  display: block;
+  font-weight: 400;
+}
+
+.box a {
+  line-height: 1.8;
+  color: #4b4e61;
+  letter-spacing: 0.03em;
+  font-size: 1.2em;
+}
+
+.email {
+  text-decoration: none;
+}
+
+.box:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(200, 200, 200);
+}
+
+.contact-content {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1px;
+  max-width: 960px;
+  color: #4b4e61;
+  font-family: 'Roboto', sans-serif;
+}
+
+.contact-content a {
+  text-decoration: none;
+}
+
+.imagebreaker {
+  text-align: center;
+}
+
+.imagebreaker img {
+  max-width: 960px;
+  width: 100%;
+}
+
+.footer {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  max-width: 960px;
+  background-color: rgb(190, 190, 190);
+  color: #fff;
+  padding: 2% 0;
+  width: 100%;
+  clear: both;
+  height: 100px;
+}
+
+.footer-content p {
+  float: left;
+  font-size: 1.3rem;
+  margin-left: 30px;
+}
+
+.social {
+  margin-top: 22px;
+  margin-right: 35px;
+}
+
+.footer-content li a {
+  margin-left: 10px;
+}
+
+.footer-content {
+  max-width: 960px;
+  padding: 2% 0;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.4;
+  color: #fff;
+  letter-spacing: 0.03em;
+  font-size: 1em;
+}
+
+.social {
+  float: right;
+}
+
+.social li {
+  display: inline;
+}
+
+.social li a {
+  color: #fff;
+  padding: 0.2em;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+
+.logo img {
+  max-width: 250px;
+  margin-top: 12px;
+}
+
+.about {
+    margin-top: 20px;
+    float: left;
+}
+
+.wrapper {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.footer {
+  height: 80px;
+}
+
+.footer p {
+  font-size: 1rem;
+  margin-left: 30px;
+}
+
+.footer-content li a {
+  font-size: 0.9rem;
+  margin-right: 10px;
+}
+
+.footer ul {
+  margin-right: 30px;
+}
+
+.social {
+  margin-top: 18px;
+}
+
+}
+
+@media screen and (max-width: 500px) {
+
+  .logo {
+    float: none;
+    margin-top: 0;
+    text-align: center;
+    padding-top: 5px;
+  }
+
+  .logo img {
+    max-width: 300px;
+  }
+
+  .links {
+    float: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+
+  }
+
+  .foliowork {
+    width: 100%;
+    float: none;
+  }
+
+  .about {
+    margin-top: 20px;
+  }
+
+  .footer {
+    height: 110px;
+    line-height: 1.3rem;
+  }
+
+  .footer-content li a {
+    font-size: 0.7rem;
+    float: left;
+    margin-left: 5px;
+  }
+
+  .footer-content ul {
+    padding-right: 50px;
+    margin-right: 10px;
+  }
+
+  .footer-content p {
+    padding-left: 57px;
+    font-size: 1rem;
+  }
+
+}
